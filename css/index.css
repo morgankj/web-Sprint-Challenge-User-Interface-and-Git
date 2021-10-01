@@ -70,7 +70,7 @@ p {
     display:flex;
     justify-content: space-between;
     width:100%;
-    margin-top: 3%;
+    margin-top: 2.5%;
 }
 
 .logo img {
@@ -89,15 +89,16 @@ p {
     color: black;
     margin: 0;
     padding: 0;
-    font-size: .9rem;
+    font-size: .85rem;
 }
 
-.bg-img {
+/*Homepage*/
+.bg-img-road {
     background-image:url('../img/jumbo.jpg');
     background-size:cover;
     background-repeat: no-repeat;
-    height: 20vh;
-    margin: 5% 0 4% 0;
+    height: 15.8vh;
+    margin: 5% 0 3% 0;
 }
 
 .container {
@@ -199,6 +200,63 @@ p {
     padding-right: 0;
 }
 
+/*About Page*/
+.bg-img-skyline {
+    background-image:url('../img/jumbo-about.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 15.8vh;
+    margin: 5% 0 3% 0;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    border-bottom: 1px dashed black;
+    padding: 0 2.5%;
+    padding-bottom: 20px;  
+}
+
+.learnMore {
+    width: 770px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.learnMore .learnsection {
+    border-bottom: 1px dashed black;
+    width: 48%;
+    margin-bottom: 7.5%;
+}
+
+.learnMore h2 {
+    margin-top: 3%;
+}
+
+.lmbutton {
+    display: flex;
+    border: 2px solid black;
+    padding: 3% 2.5%;
+    width: 36%;
+    margin: 5% 0;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.letsWorkTogether {
+    margin: 0 .6% 5%;
+}
+
+.letsWorkTogether h2 {
+    margin: 0 0 15px;
+}
+
+/*Footer*/
 footer {
     width: 100%;
     background: black;
