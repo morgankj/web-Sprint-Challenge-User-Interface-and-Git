@@ -108,7 +108,7 @@ p {
 .about {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     border-bottom: 1px dashed black;
     padding: 0 2.5%;
     padding-bottom: 20px;  
@@ -124,25 +124,29 @@ p {
 
 .learnMore .learnsection {
     border-bottom: 1px dashed black;
-    padding-bottom: 20px;
     width: 48%;
     margin-bottom: 6%;
-}
-
-.learnMore p {
-    margin-bottom: 8%;
 }
 
 .learnMore h2 {
     margin-top: 3%;
 }
 
-.learnMore a {
+.lmbutton {
+    display: flex;
     border: 2px solid black;
-    padding: 2% 6%;
+    padding: 3%;
+    width: 36%;
+    margin: 5% 0;
     text-decoration: none;
     color: black;
     border-radius: 10px;
+    transition: 1s;
+    justify-content: center;
+}
+
+.lmbutton:hover {
+    background-color: lightgrey;
 }
 
 .letsWorkTogether h2 {
