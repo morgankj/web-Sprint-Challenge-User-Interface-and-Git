@@ -33,22 +33,27 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+    Semantic HTML is a communicative label system in your code - semantic HTML is used to convey the meaning of individual elements in your HTML to both the browser and fellow developers.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+    Display: block elements always start on a new line (they take up the full width of the line), and can be assigned height and width values. Display: inline elements do not start new lines and occupy only as much space as they need, and they cannot be assigned height or width values.
 
 3. What are the 4 areas of the box model?
+    Content, Padding, Border, and Margin
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+    The cross (or vertical by default) axis.
 
 5. Explain why git is valuable to a team of developers.
+    Git allows team members to make iterative changes to a project almost simultaneously. Git isolates and tracks changes made by individuals through branches, which saves time when addressing bugs. Everyone has access to the latest, updated version of the project, as well as previous versions should they need to be referenced. Git allows great version-control while maintaining the ability of a large team to collaborate while keeping track of individual changes.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [X] Create a forked copy of this project.
+- [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [X] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push -u origin `<firstName-lastName>`.
  
