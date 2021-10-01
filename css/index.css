@@ -56,7 +56,7 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, .links a {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
@@ -64,6 +64,41 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+
+.nav{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    margin-top: 2.5%;
+}
+
+.logo img {
+    width:20%;
+}
+
+.nav .links {
+    width:80%;
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.nav .links a {
+    text-decoration: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-size: .85rem;
+}
+
+/*Homepage*/
+.bg-img-road {
+    background-image:url('../img/jumbo.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 15.8vh;
+    margin: 5% 0 3% 0;
 }
 
 .container {
@@ -104,12 +139,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1 {
+    background: teal;
+}
+
+.box2 {
+    background: gold;
+}
+
+.box3 {
+    background: cadetblue;
+}
+
+.box4 {
+    background: coral;
+}
+
+.box5 {
+    background: crimson;
+}
+
+.box6 {
+    background: forestgreen;
+}
+
+.box7 {
+    background: darkorchid;
+}
+
+.box8 {
+    background: hotpink;
+}
+
+.box9 {
+    background: indigo;
+}
+
+.box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -126,6 +200,63 @@ p {
     padding-right: 0;
 }
 
+/*About Page*/
+.bg-img-skyline {
+    background-image:url('../img/jumbo-about.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 15.8vh;
+    margin: 5% 0 3% 0;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    border-bottom: 1px dashed black;
+    padding: 0 2.5%;
+    padding-bottom: 20px;  
+}
+
+.learnMore {
+    width: 770px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.learnMore .learnsection {
+    border-bottom: 1px dashed black;
+    width: 48%;
+    margin-bottom: 7.5%;
+}
+
+.learnMore h2 {
+    margin-top: 3%;
+}
+
+.lmbutton {
+    display: flex;
+    border: 2px solid black;
+    padding: 3% 2.5%;
+    width: 36%;
+    margin: 5% 0;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.letsWorkTogether {
+    margin: 0 .6% 5%;
+}
+
+.letsWorkTogether h2 {
+    margin: 0 0 15px;
+}
+
+/*Footer*/
 footer {
     width: 100%;
     background: black;
